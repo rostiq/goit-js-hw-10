@@ -37,7 +37,7 @@ function countrySearch() {
             else if (data.length === 1) {
                 return countryInfoRef.innerHTML = data.map(
                     ({ name, capital, population, flags, languages }) =>
-                    `<img src="${flags.svg}" alt="${name.official}" width="300" height="200">
+                    `<img src="${flags.svg}" alt="${name.official}" width="256" height="152">
                     <div>   
                     <h2>${name.official}</h2>
                     <p>Capital: ${capital}</p>
